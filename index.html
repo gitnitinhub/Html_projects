@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <form action="/" method="post">
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="id">Email</label></td>
+                <td><input type="email" id="id" name="id" ></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone</label></td>
+                <td><input type="tel" id="phone" name="phone" minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                <input type="radio" id="Male" name="gender">Male
+                <input type="radio" id="Female" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="profession">Profession</label></td>
+                <td >
+                    <select name="profession" id="profession" style="width: 173.14px;
+                    height: 21.05px;">
+                        <option value="govt">Govt. Official</option>
+                        <option value="private">Private Majdur</option>
+                        <option value="self">Self Employeed</option>
+                        <option value="student">Student</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="msg">Message</label>
+                </td>
+                <td>
+                    <textarea name="msg" id="msg" cols="20" rows="6">
+                
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                <input type="checkbox" id="term" name="term" required>
+                <label for="term" >I accept the terms and conditions</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+                <td style="text-align: right;">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>
