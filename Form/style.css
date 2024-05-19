@@ -9,7 +9,7 @@ body{
 }
 
 
-div{
+.container{
     border: 2px solid blanchedalmond;
     border-style: double;
     background-color: black;
@@ -27,3 +27,11 @@ label, span{
     width: 173.14px;
     height: 21.05px;
 }
+
+#btn-div{
+    display: flex;
+}
+button{
+    width:50%;
+}
+
