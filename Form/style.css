@@ -33,11 +33,13 @@ label, span{
     opacity: 1;
 }
 button{
+    
     width:50%;
     height:100%;
     background-color: rgba(47, 58, 178, 1);
     color:white;
     border-radius: 5px;
+    
 }
 button:hover{
     background-color: white;
